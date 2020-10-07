@@ -86,8 +86,8 @@ int main()
  cout << "Nama Karyawan 2: "<< Employee2.getFirstName()<<" "<< Employee2.getLastName()<<endl;
  cout<< "Gaji Bulanan: "<< Employee2.getMonthlySalary()<< " Dan gaji tahunan: "<< Employee2.getMonthlySalary()*12<< endl;
  cout<<"Setelah kenaikan gaji 10 persen :"<<endl;
- int incrementedSalary2=Employee1.getMonthlySalary();
+ int incrementedSalary2=Employee2.getMonthlySalary();
  incrementedSalary2=incrementedSalary2+(incrementedSalary2*0.1);
  Employee2.setMonthlySalary(incrementedSalary2);
- cout<< "Gaji Bulanan Karyawan: "<< Employee1.getMonthlySalary()<< " Dan gaji tahunan : "<< Employee1.getMonthlySalary()*12<< endl;
+ cout<< "Gaji Bulanan Karyawan: "<< Employee2.getMonthlySalary()<< " Dan gaji tahunan : "<< Employee2.getMonthlySalary()*12<< endl;
 }
